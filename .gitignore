@@ -1,31 +1,36 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Intellij
 build/
+bin/
+.idea/
+*.iml
+*.iws
+.history/
 
-### VS Code ###
-.vscode/
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+doc/
+
+# Esclipse
+.gradle
+.settings/
+local.properties
+*.iml
+.factorypath
+.classpath
+.metadata
+.recommenders
+RemoteSystemsTempFiles
+
+# Gradle settings
+gradle.properties
+/.apt_generated/
+
+#Jrebel
+*rebel.xml
+
+*.log
+logs/
